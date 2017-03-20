@@ -9,7 +9,7 @@ radius = rand(size(vertex,1),1)*0.15;
 pd = spherical_power_diagram(vertex,radius);
 
 % plot
-figure('Position',[580 400 1000 420]);
+figure('Position',[580 400 880 400]);
 subplot(1,2,1)
 trimesh(face,vertex(:,1),vertex(:,2),vertex(:,3),'EdgeColor',[36 169 225]/255)
 hold on
